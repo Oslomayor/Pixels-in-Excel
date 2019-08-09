@@ -1,4 +1,6 @@
 % show a photo in Excel
+% GitHub: github.com/Oslomayor/Pixels-in-Excel
+% 2019-8-9 
 
 [fname, fpath] = uigetfile('*.*', 'Choose a photo');
 img = imread([fpath, fname]);
@@ -22,7 +24,7 @@ for row = 1:hight
         R = img(row,ii,1);
         G = img(row,ii,2);
         B = img(row,ii,3);
-        % Excel 的单元格颜色是BGR顺序
+        % Excel 碌脛碌楼脭陋赂帽脩脮脡芦脢脟BGR脣鲁脨貌
         color_value = uint32(B)*256*256+ uint32(G)*256 + uint32(R);
         Sheet1.Range(cell_index).Interior.Color = color_value;
         disp([num2str(row),'/',num2str(hight),' ',num2str(ii),'/',num2str(width)]);
@@ -32,3 +34,5 @@ end
 % saveas(workbook,'result.xls');
 % Close Workbook
 delete(Excel);
+
+% ShangBanMoYu
