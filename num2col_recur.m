@@ -1,6 +1,8 @@
-% ·µ»ØÊý×ÖÖÁ Excel ÁÐµÄÓ³Éä
+% GitHub: github.com/Oslomayor/Pixels-in-Excel
+% 2018-8-9
+% è¿”å›žæ•°å­—åˆ—å¯¹åº”çš„ Excel å­—æ¯åˆ—
 % [col] = num2col_recur(num)
-% 123...2627... -> ABC...ZAA...
+% 1 2 3...26 27... -> A B C... Z AA...
 % Example:
 % col = num2col(28) 
 % Output: col = AB
