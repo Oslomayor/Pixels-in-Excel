@@ -24,7 +24,7 @@ for row = 1:hight
         R = img(row,ii,1);
         G = img(row,ii,2);
         B = img(row,ii,3);
-        % Excel µÄµ¥Ôª¸ñÑÕÉ«ÊÇBGRË³Ðò
+        % Excel 的单元格颜色是BGR顺序
         color_value = uint32(B)*256*256+ uint32(G)*256 + uint32(R);
         Sheet1.Range(cell_index).Interior.Color = color_value;
         disp([num2str(row),'/',num2str(hight),' ',num2str(ii),'/',num2str(width)]);
