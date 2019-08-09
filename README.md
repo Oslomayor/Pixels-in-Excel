@@ -16,6 +16,7 @@ Show a Photo in Microsoft Excel pixel-by-pixel
 ## 效果
 
 通过像素点遍历的方法，设置Excel不同单元格的颜色，从而在Excel中而拼成图片
+(正常运行需要保证Excel已激活，否则MATLAB程序会中断，必须手动调试绕过office软件的激活提示)
 
 ![](https://github.com/Oslomayor/Markdown-Imglib/blob/master/Imgs/photo_excel.png?raw=true)
 
