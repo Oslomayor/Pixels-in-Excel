@@ -1,5 +1,6 @@
 # Pixels-in-Excel
 Show a Photo in Microsoft Excel pixel-by-pixel
+在 Excel 中显示照片
 
 ## 代码文件
 
