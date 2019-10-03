@@ -9,6 +9,7 @@ width = size(img,2);
 
 % ActiveX to color excel cell
 % Connect to Excel
+system('tskill excel');
 Excel = actxserver('excel.application');
 Excel.visible = 1;
 % Get Workbook object
